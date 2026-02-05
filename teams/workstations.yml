@@ -20,6 +20,8 @@ software:
     - path: ../lib/macos/software/zoom.yml
       self_service: true
       setup_experience: true
+    - path: ../lib/windows/software/cloudflare-warp.yml
+      self_service: false
 team_settings:
   secrets:
     - secret: "$FLEET_WORKSTATIONS_ENROLL_SECRET"
