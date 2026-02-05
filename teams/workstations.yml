@@ -7,7 +7,8 @@ software:
 team_settings:
   secrets:
     - secret: "$FLEET_WORKSTATIONS_ENROLL_SECRET"
-- name: C-Suite
-  description: Hosts belonging to the C-Suite
-  label_membership_type: manual
-  hosts: 
+labels:
+  - name: C-Suite
+    description: Hosts belonging to the C-Suite
+    label_membership_type: manual
+    hosts: 
