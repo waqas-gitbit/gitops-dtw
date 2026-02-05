@@ -13,6 +13,10 @@ org_settings:
   server_settings:
     server_url: $FLEET_URL
   org_info:
-    org_name: Fleet
+    org_name: WSK Enterprises
+  webhook_settings:
+    activities_webhook:
+        enable_activities_webhook: true
+        destination_url: google.com
   secrets:
     - secret: "REPLACE_WITH_ENVIRONMENT_VARIABLE"
