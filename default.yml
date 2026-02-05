@@ -17,6 +17,6 @@ org_settings:
   webhook_settings:
     activities_webhook:
         enable_activities_webhook: true
-        destination_url: google.com
+        destination_url: https://www.google.com
   secrets:
     - secret: "REPLACE_WITH_ENVIRONMENT_VARIABLE"
