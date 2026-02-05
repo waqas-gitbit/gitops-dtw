@@ -16,6 +16,10 @@ controls:
     deadline: "2026-04-30"
     minimum_version: "26.2"
 software:
+  packages:
+    - path: ../lib/macos/software/zoom.yml
+      self_service: true
+      setup_experience: true
 team_settings:
   secrets:
     - secret: "$FLEET_WORKSTATIONS_ENROLL_SECRET"
