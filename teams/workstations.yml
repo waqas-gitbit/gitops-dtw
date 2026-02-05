@@ -22,8 +22,7 @@ team_settings:
         destination_url: https://www.9to5mac.com
         host_batch_size: 0
         policy_ids: 
-            - 1
-            - 2
+            - 5911
 labels:
   - name: C-Suite
     description: Hosts belonging to the C-Suite
